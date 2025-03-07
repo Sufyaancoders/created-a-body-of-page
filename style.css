@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.number {
+    font-size: 60px;
+    font-weight: bold;
+    color: #372b2b46;
+    margin-right: 15px;
+    transition: color 0.3s ease; 
+}
+.text h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+.text p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 0 0;
+}
+.container:hover .section {
+    opacity: 0.4; 
+}
+
+.container .section:hover {
+    opacity: 1; 
+  
+    
+}
+.container .section:hover .number {
+    color: #3a2d2d; 
+}
